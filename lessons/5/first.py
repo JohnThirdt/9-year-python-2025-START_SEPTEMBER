@@ -23,7 +23,7 @@ print(f"set c = {c} is defined with list  {a}")
 def C1(n, k):
     if (n<0) or (k<0) or (k>n):
         return 0
-    if k == 0:
+    if k == 0 or k == n:
         return 1 # только пустое множество
     return C1(n-1, k-1) + C1(n-1, k)
 

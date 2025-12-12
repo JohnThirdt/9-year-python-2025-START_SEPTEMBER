@@ -83,6 +83,7 @@ def brute_force(target, alphabet, length):
     print(f"No password with length {length}")
     return None
 
+
 if __name__ == "__main__":
         target_password = "testte"
         alphabet = "abcdefghijklmnopqrstuvwxyz"
